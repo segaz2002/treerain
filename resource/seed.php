@@ -126,11 +126,13 @@ class Seeder {
         foreach($this->patient() as $patient){
             $query = "INSERT into patient (pn,first,last,dob) values(";
             $query .= $patient['pn'].",' ".$patient['first']." ','".$patient['last']." ',' ".$patient['dob']." ')";
-            echo $query;
+            echo $query."\n";
             $resource->run($query);
             $record_count++;
         }
-        echo 'LOG -info:: '.$record_count. " rows was successfully seeded for [TABLE] Patients";
+        echo 'LOG -info:: '.$record_count. " rows was successfully seeded for [TABLE] Patients\n";
+        echo "\n";
+        echo "\n";
 
 
         //Insurance
@@ -138,13 +140,16 @@ class Seeder {
         foreach($this->insurance() as $policies){
             foreach($policies as $policy ){
                 $query = 'INSERT into insurance (patient_id,iname,from_date,to_date) values(';
-                $query .= $policy['patient_id'].','.$policy['iname'].','.$policy['from_date'].','.$policy['to_date'].')';
+                $query .= $policy['patient_id'].",'".$policy['iname']." ',' ".$policy['from_date']." ',' ".$policy['to_date']."')";
+                echo $query."\n";
                 $resource->run($query);
                 $record_count++;
             }
         }
-        echo "LOG -info:: ".$record_count. " rows was successfully seeded for [TABLE] Patients";
+        echo "LOG -info:: ".$record_count. " rows was successfully seeded for [TABLE] Insurance \n";
         echo "\n";
-        echo "LOG -info:: Seeding is completed";
+
+        echo "LOG -info:: Seeding is completed\n";
+        echo "\n";
     }
 }
