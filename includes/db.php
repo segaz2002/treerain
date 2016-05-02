@@ -32,7 +32,7 @@ class db
     }
 
     function exec($queryString){
-        return (mysqli_query($this->link,$queryString));
+        return mysqli_query($this->link,$queryString);
     }
 
 

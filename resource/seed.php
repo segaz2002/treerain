@@ -51,7 +51,7 @@ class Seeder {
                     'patient_id' => 1,
                     'iname' => 'Swisscare',
                     'from_date' => '2016-01-04',
-                    'to_date' => '2016-03-03'
+                    'to_date' => '2016-06-03'
                 ],
                 [
                     'patient_id' => 1,
@@ -79,7 +79,7 @@ class Seeder {
                     'patient_id' => 3,
                     'iname' => 'Ergo Gold',
                     'from_date' => '2016-02-04',
-                    'to_date' => '2016-03-04'
+                    'to_date' => '2016-07-04'
                 ],
                 [
                     'patient_id' => 3,

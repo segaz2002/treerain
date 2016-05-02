@@ -6,8 +6,8 @@
  * Time: 1:16 AM
  */
 
-require('./includes/db.php');
-require('./PatientRecord.php');
+require_once('./includes/db.php');
+require_once('./PatientRecord.php');
 class Patient implements PatientRecord {
     protected $_id;
     protected $pn;
@@ -20,7 +20,6 @@ class Patient implements PatientRecord {
         $this->pn = $pn;
         $db = new db();
         $this->setProperties($pn,$db);
-
     }
 
     function getId(){
@@ -40,12 +39,15 @@ class Patient implements PatientRecord {
     }
 
     function checkInsuranceValidity($date){
-        $info ="";
+        $info ="Patient Number, First Last, Insurance name, Is Valid \n";
+        $dateSubs = explode('-',$date);
+        $newString = $dateSubs[2].'-'.$dateSubs[0].'-'.$dateSubs[1];
+
         foreach ($this->insurancePolicies as $policy){
-            if(strtotime($date) < strtotime($policy[4])){
-                $info .= "$this->pn, $this->first $this->last, $policy[2], Yes \n";
+            if(strtotime($policy['from_date']) <= strtotime($newString) && strtotime($policy['to_date']) >= strtotime($newString) ){
+                $info .= "$this->pn, $this->first $this->last, $policy[iname], Yes \n";
             }else{
-                $info .=  "$this->pn, $this->first $this->last, $policy[2], No \n";
+                $info .=  "$this->pn, $this->first $this->last, $policy[iname], No \n";
             }
         }
         return $info;
@@ -58,15 +60,15 @@ class Patient implements PatientRecord {
         $this->first = $patientRec['first'];
         $this->last = $patientRec['last'];
         $this->dob = $patientRec['dob'];
-        $insurePolicies = $link->exec("SELECT * FROM insurance WHERE patient_id = $this->_id");
-        while ($row=mysqli_fetch_row($insurePolicies)){
+        $insurePolicies = $link->exec("SELECT iname, from_date, to_date FROM insurance WHERE patient_id = $this->_id");
+        while ($row=mysqli_fetch_assoc($insurePolicies)){
             $this->insurancePolicies[] = $row;
         }
+        $link->disconnect();
         return;
     }
-
-
 }
 
-$test =  new Patient('20323283482');
-echo $test->checkInsuranceValidity('19-02-16');
+//$testPatient =  new Patient('20323283482');
+//var_dump($testPatient);
+//echo $testPatient->checkInsuranceValidity('02-19-16');
