@@ -1,4 +1,4 @@
-# Execution Guide
+# Execution Guide - Console App
 
 The entire task was implemented as a console Application. It is intended to be executed from a terminal.
 
@@ -9,6 +9,14 @@ The entire task was implemented as a console Application. It is intended to be e
 CREATE DATABASE raintree;
 
 ```
+Update configuration file `config.php` in the project root
+```php
+define('DB_NAME','raintree');
+define('DB_USER','your-username');
+define('DB_PASSWORD','your-password');
+define('DB_HOST','127.0.0.1');
+```
+
 NB: Do this before you continue to the other steps
 
 ### 2. Create Tables (Migration)
@@ -48,9 +56,9 @@ From the terminal execute
 This will in turn display the records in the required format according to the requirement given;
 
 
-Watch the demo below for more information.
+Watch the video demo below for more information.
 
-# Video Demo Below
+# Video Demo Below (Click to Watch)
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=olrOYcAvmic
 " target="_blank"><img src="http://img.youtube.com/vi/olrOYcAvmic/0.jpg"
 alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>

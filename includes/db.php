@@ -6,14 +6,16 @@
  * Time: 10:47 AM
  */
 
+include('./config.php');
+
 class db
 {
     var $link;
 
     function __construct(){
-        $this->link  = new mysqli("127.0.0.1", "root", "root", "raintree");
+        $this->link  = new mysqli(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME);
         if ( $this->link ->connect_error) {
-            die("Connection failed: " .  $this->link ->connect_error);
+            die("Connection failed: " .  $this->link ->connect_error. "\n");
         }
         return $this->link;
     }
