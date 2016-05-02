@@ -19,11 +19,20 @@ class db
     }
 
     function run($queryString){
-        if($this->link->query($queryString) === True){
+        $r = $this->link->query($queryString);
+
+        if($r === True){
             return True;
+        }elseif(get_class($r) === "mysqli_result"){
+
+            return $r;
         }else{
             echo "Error in query: " . $this->link->error ."\n";
         }
+    }
+
+    function exec($queryString){
+        return (mysqli_query($this->link,$queryString));
     }
 
 

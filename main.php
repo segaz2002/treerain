@@ -8,15 +8,16 @@
 
 require('./includes/db.php');
 require('./includes/migration.php');
+require('./includes/report.php');
 require('./resource/seed.php');
+
 $db = new db();
 $migration = new migration($db);
 $seed = new Seeder();
-//var_dump($db);
-//var_dump($argv);
+$reporter = new report($db);
 
 
-if(isset($argv[1])&&$argv[1] == 1 && isset($argv[2])){
+if(isset($argv[1])&&$argv[1] == 1 && isset($argv[2])){ // Table setup and record seeding
     echo "\n";
     echo "\n";
     echo "TASK 1 - Database setup and Seeding Steps\n";
@@ -34,14 +35,36 @@ if(isset($argv[1])&&$argv[1] == 1 && isset($argv[2])){
             break;
 
         default:
-            echo "Usage \n";
+            echo "\n";
+            echo "Usage Example\n";
             echo "php main.php 1 up \n";
             echo "or\n";
             echo "php main.php 1 down \n";
     }
     $db->disconnect();
     exit;
-}else{
+
+}elseif(isset($argv[1])&&$argv[1] == 2 && isset($argv[2])){ //Reporting
+    echo "TASK 2 - Reporting\n";
+    echo "=========================================\n";
+    echo "\n";
+    switch ($argv[2]){
+        case 'display':
+            $reporter->display_patients();
+            break;
+        case 'stat':
+            $reporter->getCharStat();
+            break;
+
+        default:
+            echo "\n";
+            echo "Usage Example \n";
+            echo "php main.php 2 display \n";
+            echo "or\n";
+
+    }
+}
+else{
     echo "\n";
     echo "Usage example \n";
     echo "1. Database setup and record seeding : choose (up) or (down)\n";

@@ -24,7 +24,101 @@
     <favorites_list name="raintree" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="db.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/includes/db.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-9.333333" vertical-offset="342" max-vertical-offset="990">
+              <caret line="33" column="32" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="32" />
+              <folding>
+                <element signature="e#6#89#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="report.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/includes/report.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-9.333333" vertical-offset="486" max-vertical-offset="1206">
+              <caret line="41" column="8" selection-start-line="41" selection-start-column="8" selection-end-line="43" selection-end-column="9" />
+              <folding>
+                <element signature="e#6#88#0#PHP" expanded="true" />
+                <marker date="1462140526978" expanded="true" signature="319:441" placeholder="SELECT * fro..patient..." />
+                <marker date="1462140526978" expanded="true" signature="319:443" placeholder="SELECT p.pn,..patient..." />
+                <marker date="1462140526978" expanded="true" signature="1085:1116" placeholder="SELECT first..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PatientRecord.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PatientRecord.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-4.6666665" vertical-offset="0" max-vertical-offset="234">
+              <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Patient.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Patient.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.76824033" vertical-offset="848" max-vertical-offset="1314">
+              <caret line="72" column="0" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
+              <folding>
+                <marker date="1462147045022" expanded="true" signature="1237:1270" placeholder="SELECT * FRO..patient..." />
+                <marker date="1462147045022" expanded="true" signature="1529:1572" placeholder="SELECT * FRO..insurance..." />
+                <marker date="1462147045022" expanded="true" signature="1529:1573" placeholder="SELECT * FRO..insurance..." />
+                <marker date="1462147045022" expanded="true" signature="1529:1579" placeholder="SELECT * FRO..insurance..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-5.3333335" vertical-offset="0" max-vertical-offset="1512">
+              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="29" />
+              <folding>
+                <element signature="e#6#89#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="seed.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resource/seed.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-17.444445" vertical-offset="789" max-vertical-offset="1512">
+              <caret line="146" column="13" selection-start-line="146" selection-start-column="13" selection-end-line="146" selection-end-column="13" />
+              <folding>
+                <element signature="e#1142#3452#0#PHP" expanded="false" />
+                <marker date="1462125987389" expanded="true" signature="3638:3685" placeholder="INSERT into ..." />
+                <marker date="1462125987389" expanded="true" signature="4215:4281" placeholder="INSERT into ..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="migration.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/includes/migration.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.6666667" vertical-offset="486" max-vertical-offset="1872">
+              <caret line="31" column="46" selection-start-line="31" selection-start-column="46" selection-end-line="31" selection-end-column="46" />
+              <folding>
+                <marker date="1462107271563" expanded="true" signature="772:806" placeholder="CREATE TABLE..IF..." />
+                <marker date="1462107271563" expanded="true" signature="1562:1580" placeholder="DROP TABLE p..." />
+                <marker date="1462107271563" expanded="true" signature="1917:1953" placeholder="CREATE TABLE..IF..." />
+                <marker date="1462107271563" expanded="true" signature="2806:2826" placeholder="DROP TABLE i..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -35,11 +129,14 @@
         <option value="$PROJECT_DIR$/includes/queries.php" />
         <option value="$PROJECT_DIR$/resource/sample.php" />
         <option value="$PROJECT_DIR$/transferwise.php" />
-        <option value="$PROJECT_DIR$/report.php" />
-        <option value="$PROJECT_DIR$/includes/db.php" />
         <option value="$PROJECT_DIR$/includes/migration.php" />
-        <option value="$PROJECT_DIR$/main.php" />
         <option value="$PROJECT_DIR$/resource/seed.php" />
+        <option value="$PROJECT_DIR$/report.php" />
+        <option value="$PROJECT_DIR$/main.php" />
+        <option value="$PROJECT_DIR$/includes/report.php" />
+        <option value="$PROJECT_DIR$/PatientRecord.php" />
+        <option value="$PROJECT_DIR$/includes/db.php" />
+        <option value="$PROJECT_DIR$/Patient.php" />
       </list>
     </option>
   </component>
@@ -153,19 +250,40 @@
     </task>
     <servers />
   </component>
+  <component name="TodoView" selected-index="0">
+    <todo-panel id="selected-file">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+    <todo-panel id="default-changelist">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1535" height="904" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21356615" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21356615" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32948717" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32948717" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24983211" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32948717" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -173,7 +291,6 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
     </layout>
@@ -221,13 +338,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/report.php">
+    <entry file="file://$PROJECT_DIR$/includes/report.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="476">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#6#88#0#PHP" expanded="true" />
-            <marker date="1461934434773" expanded="true" signature="-1:-1" placeholder="SELECT * fro..patient..." />
+            <marker date="1462140526978" expanded="true" signature="319:441" placeholder="SELECT * fro..patient..." />
+            <marker date="1462140526978" expanded="true" signature="319:443" placeholder="SELECT p.pn,..patient..." />
+            <marker date="1462140526978" expanded="true" signature="1085:1116" placeholder="SELECT first..." />
           </folding>
         </state>
       </provider>
@@ -237,10 +356,9 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="476" max-vertical-offset="782">
           <caret line="136" column="42" selection-start-line="136" selection-start-column="42" selection-end-line="136" selection-end-column="42" />
           <folding>
-            <element signature="e#158#1053#0#PHP" expanded="false" />
             <element signature="e#1142#3452#0#PHP" expanded="false" />
-            <marker date="1462125987389" expanded="true" signature="-1:-1" placeholder="INSERT into ..." />
-            <marker date="1462125987389" expanded="true" signature="-1:-1" placeholder="INSERT into ..." />
+            <marker date="1462125987389" expanded="true" signature="3638:3685" placeholder="INSERT into ..." />
+            <marker date="1462125987389" expanded="true" signature="4215:4281" placeholder="INSERT into ..." />
           </folding>
         </state>
       </provider>
@@ -250,13 +368,10 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="952" max-vertical-offset="1581">
           <caret line="61" column="5" selection-start-line="61" selection-start-column="5" selection-end-line="61" selection-end-column="5" />
           <folding>
-            <marker date="1462107271563" expanded="true" signature="-1:-1" placeholder="CREATE TABLE..patient..." />
-            <marker date="1462107271563" expanded="true" signature="-1:-1" placeholder="CREATE TABLE..IF..." />
-            <marker date="1462107271563" expanded="true" signature="-1:-1" placeholder="DROP TABLE p..." />
-            <marker date="1462107271563" expanded="true" signature="-1:-1" placeholder="ALTER TABLE patient..." />
-            <marker date="1462107271563" expanded="true" signature="-1:-1" placeholder="CREATE TABLE..insurance..." />
-            <marker date="1462107271563" expanded="true" signature="-1:-1" placeholder="CREATE TABLE..IF..." />
-            <marker date="1462107271563" expanded="true" signature="-1:-1" placeholder="DROP TABLE i..." />
+            <marker date="1462107271563" expanded="true" signature="772:806" placeholder="CREATE TABLE..IF..." />
+            <marker date="1462107271563" expanded="true" signature="1562:1580" placeholder="DROP TABLE p..." />
+            <marker date="1462107271563" expanded="true" signature="1917:1953" placeholder="CREATE TABLE..IF..." />
+            <marker date="1462107271563" expanded="true" signature="2806:2826" placeholder="DROP TABLE i..." />
           </folding>
         </state>
       </provider>
@@ -286,10 +401,9 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="486">
           <caret line="15" column="35" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
           <folding>
-            <element signature="e#158#1053#0#PHP" expanded="false" />
             <element signature="e#1142#3452#0#PHP" expanded="false" />
-            <marker date="1462125987389" expanded="true" signature="-1:-1" placeholder="INSERT into ..." />
-            <marker date="1462125987389" expanded="true" signature="-1:-1" placeholder="INSERT into ..." />
+            <marker date="1462125987389" expanded="true" signature="3638:3685" placeholder="INSERT into ..." />
+            <marker date="1462125987389" expanded="true" signature="4215:4281" placeholder="INSERT into ..." />
           </folding>
         </state>
       </provider>
@@ -299,13 +413,10 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="1368">
           <caret line="15" column="34" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
           <folding>
-            <marker date="1462107271563" expanded="true" signature="-1:-1" placeholder="CREATE TABLE..patient..." />
-            <marker date="1462107271563" expanded="true" signature="-1:-1" placeholder="CREATE TABLE..IF..." />
-            <marker date="1462107271563" expanded="true" signature="-1:-1" placeholder="DROP TABLE p..." />
-            <marker date="1462107271563" expanded="true" signature="-1:-1" placeholder="ALTER TABLE patient..." />
-            <marker date="1462107271563" expanded="true" signature="-1:-1" placeholder="CREATE TABLE..insurance..." />
-            <marker date="1462107271563" expanded="true" signature="-1:-1" placeholder="CREATE TABLE..IF..." />
-            <marker date="1462107271563" expanded="true" signature="-1:-1" placeholder="DROP TABLE i..." />
+            <marker date="1462107271563" expanded="true" signature="772:806" placeholder="CREATE TABLE..IF..." />
+            <marker date="1462107271563" expanded="true" signature="1562:1580" placeholder="DROP TABLE p..." />
+            <marker date="1462107271563" expanded="true" signature="1917:1953" placeholder="CREATE TABLE..IF..." />
+            <marker date="1462107271563" expanded="true" signature="2806:2826" placeholder="DROP TABLE i..." />
           </folding>
         </state>
       </provider>
@@ -335,10 +446,9 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="486">
           <caret line="15" column="35" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
           <folding>
-            <element signature="e#158#1053#0#PHP" expanded="false" />
             <element signature="e#1142#3452#0#PHP" expanded="false" />
-            <marker date="1462125987389" expanded="true" signature="-1:-1" placeholder="INSERT into ..." />
-            <marker date="1462125987389" expanded="true" signature="-1:-1" placeholder="INSERT into ..." />
+            <marker date="1462125987389" expanded="true" signature="3638:3685" placeholder="INSERT into ..." />
+            <marker date="1462125987389" expanded="true" signature="4215:4281" placeholder="INSERT into ..." />
           </folding>
         </state>
       </provider>
@@ -348,13 +458,10 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="252" max-vertical-offset="1350">
           <caret line="19" column="47" selection-start-line="19" selection-start-column="47" selection-end-line="19" selection-end-column="47" />
           <folding>
-            <marker date="1462107271563" expanded="true" signature="-1:-1" placeholder="CREATE TABLE..patient..." />
-            <marker date="1462107271563" expanded="true" signature="-1:-1" placeholder="CREATE TABLE..IF..." />
-            <marker date="1462107271563" expanded="true" signature="-1:-1" placeholder="DROP TABLE p..." />
-            <marker date="1462107271563" expanded="true" signature="-1:-1" placeholder="ALTER TABLE patient..." />
-            <marker date="1462107271563" expanded="true" signature="-1:-1" placeholder="CREATE TABLE..insurance..." />
-            <marker date="1462107271563" expanded="true" signature="-1:-1" placeholder="CREATE TABLE..IF..." />
-            <marker date="1462107271563" expanded="true" signature="-1:-1" placeholder="DROP TABLE i..." />
+            <marker date="1462107271563" expanded="true" signature="772:806" placeholder="CREATE TABLE..IF..." />
+            <marker date="1462107271563" expanded="true" signature="1562:1580" placeholder="DROP TABLE p..." />
+            <marker date="1462107271563" expanded="true" signature="1917:1953" placeholder="CREATE TABLE..IF..." />
+            <marker date="1462107271563" expanded="true" signature="2806:2826" placeholder="DROP TABLE i..." />
           </folding>
         </state>
       </provider>
@@ -384,10 +491,9 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="486">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#158#1053#0#PHP" expanded="false" />
             <element signature="e#1142#3452#0#PHP" expanded="false" />
-            <marker date="1462125987389" expanded="true" signature="-1:-1" placeholder="INSERT into ..." />
-            <marker date="1462125987389" expanded="true" signature="-1:-1" placeholder="INSERT into ..." />
+            <marker date="1462125987389" expanded="true" signature="3638:3685" placeholder="INSERT into ..." />
+            <marker date="1462125987389" expanded="true" signature="4215:4281" placeholder="INSERT into ..." />
           </folding>
         </state>
       </provider>
@@ -397,73 +503,89 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="411" max-vertical-offset="1350">
           <caret line="26" column="20" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
           <folding>
-            <marker date="1462107271563" expanded="true" signature="-1:-1" placeholder="CREATE TABLE..patient..." />
-            <marker date="1462107271563" expanded="true" signature="-1:-1" placeholder="CREATE TABLE..IF..." />
-            <marker date="1462107271563" expanded="true" signature="-1:-1" placeholder="DROP TABLE p..." />
-            <marker date="1462107271563" expanded="true" signature="-1:-1" placeholder="ALTER TABLE patient..." />
-            <marker date="1462107271563" expanded="true" signature="-1:-1" placeholder="CREATE TABLE..insurance..." />
-            <marker date="1462107271563" expanded="true" signature="-1:-1" placeholder="CREATE TABLE..IF..." />
-            <marker date="1462107271563" expanded="true" signature="-1:-1" placeholder="DROP TABLE i..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/report.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.0" vertical-offset="0" max-vertical-offset="504">
-          <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
-          <folding>
-            <element signature="e#6#88#0#PHP" expanded="true" />
-            <marker date="1461934434773" expanded="true" signature="-1:-1" placeholder="SELECT * fro..patient..." />
+            <marker date="1462107271563" expanded="true" signature="772:806" placeholder="CREATE TABLE..IF..." />
+            <marker date="1462107271563" expanded="true" signature="1562:1580" placeholder="DROP TABLE p..." />
+            <marker date="1462107271563" expanded="true" signature="1917:1953" placeholder="CREATE TABLE..IF..." />
+            <marker date="1462107271563" expanded="true" signature="2806:2826" placeholder="DROP TABLE i..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/includes/migration.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6721992" vertical-offset="846" max-vertical-offset="1872">
-          <caret line="79" column="55" selection-start-line="79" selection-start-column="55" selection-end-line="79" selection-end-column="55" />
+        <state vertical-scroll-proportion="0.6666667" vertical-offset="486" max-vertical-offset="1872">
+          <caret line="31" column="46" selection-start-line="31" selection-start-column="46" selection-end-line="31" selection-end-column="46" />
           <folding>
-            <marker date="1462107271563" expanded="true" signature="-1:-1" placeholder="CREATE TABLE..patient..." />
-            <marker date="1462107271563" expanded="true" signature="-1:-1" placeholder="CREATE TABLE..IF..." />
-            <marker date="1462107271563" expanded="true" signature="-1:-1" placeholder="DROP TABLE p..." />
-            <marker date="1462107271563" expanded="true" signature="-1:-1" placeholder="ALTER TABLE patient..." />
-            <marker date="1462107271563" expanded="true" signature="-1:-1" placeholder="CREATE TABLE..insurance..." />
-            <marker date="1462107271563" expanded="true" signature="-1:-1" placeholder="CREATE TABLE..IF..." />
-            <marker date="1462107271563" expanded="true" signature="-1:-1" placeholder="DROP TABLE i..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.111111" vertical-offset="303" max-vertical-offset="1098">
-          <caret line="32" column="31" selection-start-line="32" selection-start-column="31" selection-end-line="32" selection-end-column="31" />
-          <folding>
-            <element signature="e#6#89#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/includes/db.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-16.0" vertical-offset="0" max-vertical-offset="828">
-          <caret line="24" column="40" selection-start-line="24" selection-start-column="40" selection-end-line="24" selection-end-column="40" />
-          <folding>
-            <element signature="e#6#89#0#PHP" expanded="true" />
+            <marker date="1462107271563" expanded="true" signature="772:806" placeholder="CREATE TABLE..IF..." />
+            <marker date="1462107271563" expanded="true" signature="1562:1580" placeholder="DROP TABLE p..." />
+            <marker date="1462107271563" expanded="true" signature="1917:1953" placeholder="CREATE TABLE..IF..." />
+            <marker date="1462107271563" expanded="true" signature="2806:2826" placeholder="DROP TABLE i..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resource/seed.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.9502075" vertical-offset="105" max-vertical-offset="936">
-          <caret line="152" column="18" selection-start-line="152" selection-start-column="18" selection-end-line="152" selection-end-column="18" />
+        <state vertical-scroll-proportion="-17.444445" vertical-offset="789" max-vertical-offset="1512">
+          <caret line="146" column="13" selection-start-line="146" selection-start-column="13" selection-end-line="146" selection-end-column="13" />
           <folding>
-            <element signature="e#158#1053#0#PHP" expanded="false" />
             <element signature="e#1142#3452#0#PHP" expanded="false" />
-            <marker date="1462125987389" expanded="true" signature="-1:-1" placeholder="INSERT into ..." />
-            <marker date="1462125987389" expanded="true" signature="-1:-1" placeholder="INSERT into ..." />
+            <marker date="1462125987389" expanded="true" signature="3638:3685" placeholder="INSERT into ..." />
+            <marker date="1462125987389" expanded="true" signature="4215:4281" placeholder="INSERT into ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.3333335" vertical-offset="0" max-vertical-offset="1512">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="29" />
+          <folding>
+            <element signature="e#6#89#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PatientRecord.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.6666665" vertical-offset="0" max-vertical-offset="234">
+          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/db.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.333333" vertical-offset="342" max-vertical-offset="990">
+          <caret line="33" column="32" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="32" />
+          <folding>
+            <element signature="e#6#89#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/report.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.333333" vertical-offset="486" max-vertical-offset="1206">
+          <caret line="41" column="8" selection-start-line="41" selection-start-column="8" selection-end-line="43" selection-end-column="9" />
+          <folding>
+            <element signature="e#6#88#0#PHP" expanded="true" />
+            <marker date="1462140526978" expanded="true" signature="319:441" placeholder="SELECT * fro..patient..." />
+            <marker date="1462140526978" expanded="true" signature="319:443" placeholder="SELECT p.pn,..patient..." />
+            <marker date="1462140526978" expanded="true" signature="1085:1116" placeholder="SELECT first..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Patient.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.76824033" vertical-offset="848" max-vertical-offset="1314">
+          <caret line="72" column="0" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
+          <folding>
+            <marker date="1462147045022" expanded="true" signature="1237:1270" placeholder="SELECT * FRO..patient..." />
+            <marker date="1462147045022" expanded="true" signature="1529:1572" placeholder="SELECT * FRO..insurance..." />
+            <marker date="1462147045022" expanded="true" signature="1529:1573" placeholder="SELECT * FRO..insurance..." />
+            <marker date="1462147045022" expanded="true" signature="1529:1579" placeholder="SELECT * FRO..insurance..." />
           </folding>
         </state>
       </provider>
